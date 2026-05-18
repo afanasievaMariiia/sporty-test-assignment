@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+.env
+.env.local
+.DS_Store
+.idea/
+.vscode/
+reports/
+screenshots/
+*.log
+.playwright-mcp/
+
+# Claude Code session state — never commit
+.claude/
+CLAUDE.md
