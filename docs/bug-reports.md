@@ -6,7 +6,7 @@ Severity: Critical
 
 Reproduction Steps:
 
-1. Log in as a user with balance €100.00.
+1. Log in as a user with the default starting balance €125.50.
 2. Select an upcoming match, click "1" odds (e.g., 2.50).
 3. Enter stake 10.00 and click "Place Bet".
 4. Wait for the success receipt, then close it.
@@ -14,12 +14,12 @@ Reproduction Steps:
 
 Expected vs Actual:
 
-- Expected: balance shows €90.00 (€100.00 − €10.00).
-- Actual: balance still shows €100.00. Refreshing the page corrects it to €90.00.
+- Expected: balance shows €115.50 (€125.50 − €10.00).
+- Actual: balance still shows €125.50. Refreshing the page corrects it to €115.50.
 
 Business Impact: Users see stale balances, may attempt bets they can't afford, and lose trust in the platform's financial accuracy.
 
-Evidence: Screenshots of balance pre-bet (€100.00), receipt (stake €10.00), post-bet header (€100.00), and post-refresh header (€90.00). Network HAR shows updated balance in place-bet response is not consumed by UI.
+Evidence: Screenshots of balance pre-bet (€125.50), receipt (stake €10.00), post-bet header (€125.50), and post-refresh header (€115.50). Network HAR shows updated balance in place-bet response is not consumed by UI.
 
 ---
 
