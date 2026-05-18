@@ -19,7 +19,9 @@ Expected vs Actual:
 
 Business Impact: Users see stale balances, may attempt bets they can't afford, and lose trust in the platform's financial accuracy.
 
-Evidence: Network HAR shows the place-bet response returns the updated balance, but the UI header continues to render the pre-bet value until a manual page refresh.
+Evidence:
+
+![BUG-001 — balance still reads €125.50 in both the header and the bet slip after a €10 bet was placed (Bet ID #B-69645)](screenshots/bug-001.png)
 
 ---
 
