@@ -58,9 +58,7 @@ Reproduction Steps:
 
 Expected vs Actual:
 
-- Expected: €25.00 (stake × odds = 10.00 × 2.50).
-- Actual: €15.00 — receipt shows profit only (stake × odds − stake) instead of total return. Confirmed across multiple stake/odds combinations.
+- Expected: "Potential Payout" in the Bet Slip is the same as in the receipt.
+- Actual: "Potential Payout" in the Bet Slip is different from the receipt. Confirmed across multiple stake/odds combinations.
 
 Business Impact: Customers see conflicting payout figures at the point of transaction, triggering support tickets, financial disputes, and regulatory complaint risk.
-
-Evidence: Side-by-side screenshots of bet slip (€25.00) and receipt (€15.00) for the same bet. Repeats with stake €20.00 @ 1.50 (slip €30.00, receipt €10.00). Recommend verifying backend stored payout to rule out settlement bug.
