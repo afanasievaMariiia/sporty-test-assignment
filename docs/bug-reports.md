@@ -66,9 +66,3 @@ Expected vs Actual:
 - Actual: "Potential Payout" in the Bet Slip is different from the receipt. Confirmed across multiple stake/odds combinations.
 
 Business Impact: Customers see conflicting payout figures at the point of transaction, triggering support tickets, financial disputes, and regulatory complaint risk.
-
-Evidence:
-
-![BUG-003 — "Something went wrong" error modal returned on Place Bet, offering Rebet / Close](screenshots/bug-003-error-modal.png)
-
-![BUG-003 — Receipt shows Potential Payout €4.00 for stake €2.00 at odds 1.95 (does not match the value displayed on the bet slip before placement)](screenshots/bug-003-receipt.png)
