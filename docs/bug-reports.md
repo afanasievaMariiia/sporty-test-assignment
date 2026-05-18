@@ -43,7 +43,9 @@ Expected vs Actual:
 
 Business Impact: Users cannot narrow matches to their preferred odds range, harming bet discovery and reducing placement volume.
 
-Evidence: Screenshots of filter inputs (Min=2.00, Max=5.00) and match list before/after Apply (identical). Network tab note: filter request either not fired or response ignored.
+Evidence:
+
+![BUG-002 — Odds filter set to 2.00–5.00, but the match list still shows matches with odds clearly outside that range (e.g. Real Madrid 1.85, Bayern Munich 1.45, PSG 1.35 / 7.50)](screenshots/bug-002.png)
 
 ---
 
