@@ -19,7 +19,7 @@ Expected vs Actual:
 
 Business Impact: Users see stale balances, may attempt bets they can't afford, and lose trust in the platform's financial accuracy.
 
-Evidence: Screenshots of balance pre-bet (€125.50), receipt (stake €10.00), post-bet header (€125.50), and post-refresh header (€115.50). Network HAR shows updated balance in place-bet response is not consumed by UI.
+Evidence: Network HAR shows the place-bet response returns the updated balance, but the UI header continues to render the pre-bet value until a manual page refresh.
 
 ---
 
