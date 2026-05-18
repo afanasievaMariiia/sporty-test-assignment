@@ -69,6 +69,6 @@ Business Impact: Customers see conflicting payout figures at the point of transa
 
 Evidence:
 
-![BUG-003 — "Something went wrong" error modal returned on Place Bet (Rebet / Close offered)](screenshots/bug-003-error-modal.png)
+![BUG-003 — Bet slip: Juventus vs AC Milan, stake €2.00 @ odds 1.95, Potential Payout €3.90](screenshots/bug-003-slip.png)
 
-![BUG-003 — Success receipt shows Potential Payout €4.00 for stake €2.00 at odds 1.95](screenshots/bug-003-receipt.png)
+![BUG-003 — Success receipt for the same bet shows Potential Payout €4.00 (does not match the €3.90 displayed on the slip before placement)](screenshots/bug-003-receipt.png)
