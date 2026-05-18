@@ -12,7 +12,8 @@ env/
 .idea/
 .vscode/
 reports/
-screenshots/
+# Allow committed bug-report screenshots under docs/, ignore stray top-level dumps
+/screenshots/
 *.log
 .playwright-mcp/
 
